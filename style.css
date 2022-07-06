@@ -111,6 +111,7 @@ body{
 @media only screen and (max-width:530px) {
     body{
         height: 130vh;
+        padding: 40rem 0;
     }
 }
 
