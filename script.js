@@ -3,9 +3,6 @@ const weatherApi ={
     baseURL : "https://api.openweathermap.org/data/2.5/weather?"
 }
 
-var viewport = document.querySelector("meta[name=viewport]");
-viewport.setAttribute("content", viewport.content + "")
-
 const searchInputBox = document.getElementById('cityName');
 
 const searchBtn = document.getElementById('btn');
