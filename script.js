@@ -1,11 +1,3 @@
-setTimeout(function () {
-    let viewheight = $(window).height();
-    let viewwidth = $(window).width();
-    let viewport = document.querySelector("meta[name=viewport]");
-    viewport.setAttribute("content", "height=" + viewheight + "px, width=" + viewwidth + "px, initial-scale=1.0");
-}, 300);
-
-
 const weatherApi ={
     key : "ab8b13f4f1c0d10c82b0824ce6c47a9e",
     baseURL : "https://api.openweathermap.org/data/2.5/weather?"
