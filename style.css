@@ -108,13 +108,11 @@ body{
     border-radius: 1rem;
 }
 
-@media only screen and (max-width:530px){
-    .container{
-        width: 25rem;
-        margin-top: auto;
-    }
-    .container:hover{
-        transform: none;
+@media only screen and (max-width:530px) {
+    body{
+        height: 130vh;
+        padding: 40rem 0;
     }
 }
+
 
